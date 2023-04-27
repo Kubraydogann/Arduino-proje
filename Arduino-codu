@@ -1,4 +1,4 @@
-  //KUBRA AYDOGAN PROJE// 
+
 #include <Servo.h>. 
 
 const int trigPin = 4;
