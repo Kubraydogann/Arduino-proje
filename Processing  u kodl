@@ -1,0 +1,17 @@
+   procesing.serial.*; // kitaplığı yükle// 
+   java.awt.event.Keyevent; //portları okur//
+   java.io.javaIOExeption;    
+   Serial myPort;
+   
+   String angle="";   
+   String distance="";   
+   String data="";   
+   String nObject="";   
+   float pixsDistance;   
+   int iAngle iDistance;   
+   int index1=0   
+   int index2=0   
+   Pfont orcFont;   
+   void setup() {   
+   
+   
