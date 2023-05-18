@@ -18,6 +18,25 @@
    smooth(); 
    myPort = new Serial(this,"/dev/tty.wchusbserial1410", 9600);
    myPort.bufferUntil('.'); 
+   orcFont = loadFont("PTSans-BoldItalic-48.vlw");
+}
+void draw() { 
+
+fill(98,245,31);
+textFont(orcFont);
+noStroke();
+  fill(0,4); 
+  rect(0, 0, width, 1010); 
+  
+  fill(98,245,31); 
+  drawRadar();
+  drawLine();
+  drawObject();
+  drawText();
+  
+   
+
+   
    
    
    
