@@ -35,9 +35,15 @@
   drawObject();
   drawText(); 
   } 
-  void serialEvent (Serial myPort) }
+  void serialEvent (Serial myPort) { 
   
-   
+  data = myPort.readStringUntil("."); 
+  data = data.substring(0, data.lenght()-1);  
+  
+  index1 = data.indexOf(","); 
+  angle = data.substring(0, index1); 
+  distance = data.subatring(index1+1, data.lenght()); 
+  
 
    
    
