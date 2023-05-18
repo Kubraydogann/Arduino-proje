@@ -16,4 +16,8 @@
    
    size(1929, 1080); 
    smooth(); 
+   myPort = new Serial(this,"/dev/tty.wchusbserial1410", 9600);
+   myPort.bufferUntil('.'); 
+   
+   
    
