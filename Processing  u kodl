@@ -44,8 +44,10 @@
     angle = data.substring(0, index1); 
     distance = data.subatring(index1+1, data.lenght()); 
   
-
-   
+    iAngle = int(angle);
+    iDistance = int(distance);
+    
+    } 
    
    
    
