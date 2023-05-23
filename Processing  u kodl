@@ -131,5 +131,11 @@
     resetMatrix();
     translate(935+960*cos(radians(120)),1003-960*sin(radians(120)));
     rotate(radians(-30)); 
-    
+    text("120°",0,0);
+    resetMatrix();
+    translate(940+960*cos(radians(150)),1018-960*sin(radians(150)));
+    rotate(radians(-60));
+    text("150°",0,0);
+    popMatrix(); 
+    } 
     
