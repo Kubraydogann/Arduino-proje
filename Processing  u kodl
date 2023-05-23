@@ -46,8 +46,20 @@
   
     iAngle = int(angle);
     iDistance = int(distance);
-    
     } 
-   
-   
+    
+    void drawRadar() { 
+    pushMatrix();
+    translate(960,1000); 
+    noFill(); 
+    strokeWeight(2); 
+    stroke(98,245,31); 
+    
+    arc(0,0,1800,1800,PI,TWO_PI); 
+    arc(0,0,1400,1400,PI,TWO_PI); 
+    arc(0,0,1000,1000,PI,TWO_PI);
+    arc(0,0,600,600,PI,TWO_PI); 
+    
+    line(-960,0,960,0);
+    line(0,0,-960*cos(radians(30)),-960*sin(radians(30)));
    
