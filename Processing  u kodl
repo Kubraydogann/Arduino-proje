@@ -86,3 +86,6 @@
     strokeWeight(9);
     stroke(30,250,60);
     translate(960,1000);
+    line(0,0,950*cos(radians(iAngle)),-950*sin(radians(iAngle))); 
+    popMatrix(); 
+    } 
