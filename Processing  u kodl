@@ -112,5 +112,11 @@
     text("Angle: "  + iAngle +" , 1050, 1050);
     text("Distance: ", 1380, 1050);
    
+    if(iDistance<40) {
+    text(" " + iDistance +"cm", 1400, 1050);
+    } 
+    textSize(25); 
+    fill(98,245,31); 
+    translate(961+960*cos(radians(30)),982-960*sin(radians(30)));
     
     
