@@ -93,3 +93,16 @@
     pushMatrix(); 
     if(iDistance<40) } 
     
+    noObject = "Out of Range";
+    }
+    else { 
+    noObject = "In Range";
+    }
+    fill(0,0,0) 
+    stroke(); 
+    rect(1010,1080); 
+    
+    
+   
+    
+    
