@@ -128,3 +128,4 @@
     translate(945+960*cos(radians(90)),990-960*sin(radians(90)));
     rotate(radians(0)); 
     text("90°",0,0);
+    resetMatrix();
