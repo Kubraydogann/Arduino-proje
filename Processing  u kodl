@@ -108,10 +108,9 @@
     text("30cm",1580,990);
     text("40cm",1780,990); 
     textSize(40);
-
-    
-    
-    
+    text("Object: "  + noObject, 240, 1050);
+    text("Angle: "  + iAngle +" , 1050, 1050);
+    text("Distance: ", 1380, 1050);
    
     
     
