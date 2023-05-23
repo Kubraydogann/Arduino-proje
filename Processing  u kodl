@@ -109,7 +109,7 @@
     text("40cm",1780,990); 
     textSize(40);
     text("Object: "  + noObject, 240, 1050);
-    text("Angle: "  + iAngle +" , 1050, 1050);
+    text("Angle: "  + iAngle + " ° " , 1050, 1050);
     text("Distance: ", 1380, 1050);
    
     if(iDistance<40) {
@@ -118,5 +118,13 @@
     textSize(25); 
     fill(98,245,31); 
     translate(961+960*cos(radians(30)),982-960*sin(radians(30)));
-    
-    
+    rotate(-radians(-60)); 
+    text("30°",0,0);
+    resetMatrix();
+    translate(954+960*cos(radians(60)),984-960*sin(radians(60)));
+    rotate(-radians(-30)); 
+    text("60°",0,0);
+    resetMatrix(); 
+    translate(945+960*cos(radians(90)),990-960*sin(radians(90)));
+    rotate(radians(0)); 
+    text("90°",0,0);
