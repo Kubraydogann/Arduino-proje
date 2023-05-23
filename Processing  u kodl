@@ -79,7 +79,8 @@
     if(iDistance<40){
     line(pixsDistance*cos(radians(iAngle)),-pixsDistance*sin(radians(iAngle)),950*cos(radians(iAngle)),-950*sin(radians(iAngle))); 
      } 
-    pushMatrix(); 
+    popMatrix(); 
     } 
     void drawLine() {
     pushMatrix();
+    strokeWeight(9);
