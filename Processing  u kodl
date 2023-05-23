@@ -66,3 +66,13 @@
     line(0,0,-960*cos(radians(90)),-960*sin(radians(90)));
     line(0,0,-960*cos(radians(120)),-960*sin(radians(120)));
     line(0,0,-960*cos(radians(150)),-960*sin(radians(150)));
+    line(-960*cos(radians(30)),0,960,0);
+    popMatrix(); 
+        } 
+    void drawObhect() { 
+    popMatrix(); 
+    translate(960,1000);
+    strokeWeight(9);
+    stroke(255,10,10); 
+    
+    
