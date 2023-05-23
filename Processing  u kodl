@@ -74,5 +74,5 @@
     translate(960,1000);
     strokeWeight(9);
     stroke(255,10,10); 
-    pixsDistance = iDistance*22.5; 
-    
+    pixsDistance = iDistance*22.5;  
+    if(iDistance<40){
