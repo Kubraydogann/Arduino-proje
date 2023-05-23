@@ -100,7 +100,11 @@
     }
     fill(0,0,0) 
     stroke(); 
-    rect(1010,1080); 
+    rect(0,1010, width, 1080); 
+    fill(98,245,31); 
+    textsize(25); 
+    
+
     
     
    
