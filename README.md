@@ -1,5 +1,5 @@
 # Arduino-proje
-Projemin özeti yakınınızda belli bir yzaklıktaki cisimleri nesneleri ve yakınlıklarını hareket sensörü ile algılayıp monitorde görmenizi sağlıyor. 
+Projenin onemi yakınınızda belli bir yzaklıktaki cisimleri nesneleri ve yakınlıklarını hareket sensörü ile algılayıp monitorde görmenizi sağlıyor. 
 
 Bu proje kodları buradan indirebilirsiniz.
 
