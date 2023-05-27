@@ -9,5 +9,9 @@ Projenin monitor olarak gorünmesi kısmında processing uygulamasına ve proces
 
 Bunları sırasıyla yaptıktan sonra radarınıza yüklediğiniz kodla birlikte çalıştır dediğinizde radarınızın hareket sensörü dönmeye başlayıp cisinlerin yakınlığını kırmızı çizgilerle size göstermeye başlayacaktır. 
 
+Not: Hocam projeye sizin onay vermeniz görüldükten sonra başlanılmış olup, duyurular kısmı takip edilerek yapılmıştır. 
+
+Projenin bitmiş halı: https://www.dailymotion.com/video/x8laqxm
+
 Projeyi geliştirirken youtube dan yol izlenimi için yararlanılmıştır.
 Projeyi geliştirenler KÜBRA AYDOĞAN
